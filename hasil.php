@@ -17,6 +17,7 @@ if ($Upload) {
 	echo "Hallo ".$v1. " dengan NIM ".$v2;
     echo "<br>Anda telah berhasil upload!<br/>";
     echo "Link: <a href='".$dirUpload.$namaFile."'>".$namaFile."</a>";
+    echo "<br> foto diri : <br> <img src='".$dirUpload.$namaFile."' alt='' width='200' >";
 } else {
     echo "Upload Gagal!";
 }
